@@ -1,0 +1,86 @@
+$color: #000000;
+
+@mixin ring ($x, $y, $z, $color) {
+  height : $x;
+  width : $x;
+  border-radius : $y;
+  border: $z solid $color;
+  box-shadow : inset 1px 3px 3px $color, 1px 3px 3px $color;
+}
+.ring {
+  @include ring(50px, 50%, 5px, #d86431);
+}
+
+.ring-one {
+  @include ring(100px, 50%, 5px, #e1c53b);
+}
+
+.ring-two {
+  @include ring(70px, 50%, 5px, $color);
+}
+
+@mixin primary-class() {
+  margin-top: 2%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 6%;
+}
+.primary-class {
+  @include primary-class();
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.third-class {
+  @include primary-class();
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2%;
+}
+
+
+@for $i from 1 through 6 {
+  .ring#{$i} {
+    @include ring(20px*$i, 50%, 4px, #000000);
+    margin-right : -$i*5px;
+  }
+}
+
+.orange {
+  background-color: #d86431;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+
+a.navbar-brand {
+  color: $color;
+}
+
+ul {
+  list-style: none;
+  li {
+    padding: 7px;
+    a {
+      color: $color;
+      &:hover {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@font-face{
+  font-family : 'aniron';
+  src: url('aniron/anirb___.ttf');
+}

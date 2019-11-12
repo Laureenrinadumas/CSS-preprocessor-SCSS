@@ -1,0 +1,136 @@
+.ring {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid #d86431;
+    box-shadow: inset 1px 3px 3px #d86431, 1px 3px 3px #d86431;
+}
+
+.ring-one {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #e1c53b;
+    box-shadow: inset 1px 3px 3px #e1c53b, 1px 3px 3px #e1c53b;
+}
+
+.ring-two {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: inset 1px 3px 3px black, 1px 3px 3px black;
+}
+
+.primary-class {
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.third-class {
+    margin-top: 6%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 2%;
+}
+
+.ring1 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 4px solid black;
+    box-shadow: inset 1px 3px 3px black, 1px 3px 3px black;
+    margin-right: -5px;
+}
+
+.ring2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 4px solid black;
+    box-shadow: inset 1px 3px 3px black, 1px 3px 3px black;
+    margin-right: -10px;
+}
+
+.ring3 {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 4px solid black;
+    box-shadow: inset 1px 3px 3px black, 1px 3px 3px black;
+    margin-right: -15px;
+}
+
+.ring4 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 4px solid black;
+    box-shadow: inset 1px 3px 3px black, 1px 3px 3px black;
+    margin-right: -20px;
+}
+
+.ring5 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid black;
+    box-shadow: inset 1px 3px 3px black, 1px 3px 3px black;
+    margin-right: -25px;
+}
+
+.ring6 {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 4px solid black;
+    box-shadow: inset 1px 3px 3px black, 1px 3px 3px black;
+    margin-right: -30px;
+}
+
+.orange {
+    background-color: #d86431;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+a.navbar-brand {
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+ul li {
+    padding: 7px;
+}
+ul li a {
+    color: black;
+}
+ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'aniron';
+    src: url("aniron/anirb___.ttf");
+}
